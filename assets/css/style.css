@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+
+    box-sizing: border-box;
+  }
+
+:root {
+    --header-text: rgb(33, 70, 125);
+    --header-h1: #fff;
+  }
+  
+html {
+    height: 100%;
+  }
+  
+body {
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif; 
+    display: flex;
+    flex-wrap: wrap;
+    background-color:darkgrey;
+}
+  
+.header {
+    background-image: url(https://ganda.com/wp-content/uploads/2017/05/robot-gif-3-1.gif);
+    background-size: cover;
+    width: 100%;
+    max-height: 700px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+figure {
+        float: left;
+        width: 300px;
+        text-align: center;
+        font-style: italic;
+        font-size: smaller;
+        text-indent: 0;
+        margin-top: 5em;
+       padding: 10px;
+}
+
+.header img {
+    border-radius: 300px;
+    width: 350px;
+    
+}
+
+figcaption { 
+    margin-left: 50px; 
+    text-align: center; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 60px; 
+    float: left; 
+    background-color: pink;
+    width: 250px;
+}
+
+
+.nav {
+   font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    float: right;
+    color: black;
+    padding-top: 0px;
+    margin-right: 50px;
+  
+}
+
+.subtitle {
+    background-color: green;
+    font-size: 60px;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+  
+    text-align: right;
+    height: 80px;
+    position: absolute;
+   display: inline-block;
+    
+   border-right: 10100000200px;
+    
+}
+
+.header ul {
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    font-size: 30px;
+}
+
+.header li {
+    display: block;
+    justify-content: space-between;
+    margin: 15px;
+    width: 300px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+main {
+    
+    
+}
+
+aside {
+    font-size: 100px;
+}
+  
+  input,
+  select,
+  option,
+  optgroup,
+  textarea,
+  button,
+  pre,
+  code {
+    font-size: 100%;
+    font-family: inherit;
+  }
+
+.container {
+  
+
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
