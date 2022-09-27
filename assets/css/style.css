@@ -5,7 +5,7 @@
   }
 
 :root {
-    --header-text: rgb(33, 70, 125);
+    --header-text: rgb(230, 213, 62);
     --header-h1: #fff;
   }
   
@@ -19,7 +19,7 @@ body {
     font-family: sans-serif; 
     display: flex;
     flex-wrap: wrap;
-    background-color:darkgrey;
+    background-color:rgb(18, 40, 93);
 }
   
 .header {
@@ -60,6 +60,7 @@ figcaption {
 
 .nav {
    font-family:Arial, Helvetica, sans-serif;
+   display: block;
     font-size: 20px;
     float: right;
     color: black;
@@ -68,23 +69,9 @@ figcaption {
   
 }
 
-.subtitle {
-    background-color: green;
-    font-size: 60px;
-    font-family:Impact, 'Arial Narrow Bold', sans-serif;
-  
-    text-align: right;
-    height: 80px;
-    position: absolute;
-   display: inline-block;
-    
-   border-right: 10100000200px;
-    
-}
 
 .header ul {
-    background-color: red;
-    display: grid;
+        display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
     font-size: 30px;
@@ -94,9 +81,11 @@ figcaption {
     display: block;
     justify-content: space-between;
     margin: 15px;
-    width: 300px;
+    width: 180px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--header-text);
+    text-decoration: underline;
 }
 
 
@@ -106,9 +95,22 @@ main {
     
 }
 
-aside {
-    font-size: 100px;
+.subtitle {
+    font-size: 60px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+ .sub {
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+   font-weight: bold;
+   margin-left: 1600px;
+   margin-top: 600px;
+   width: 400px;
+   }  
+
   
   input,
   select,
