@@ -7,6 +7,7 @@
 :root {
     --header-text: rgb(230, 213, 62);
     --header-h1: #fff;
+    --
   }
   
 html {
@@ -53,7 +54,6 @@ figcaption {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     font-size: 60px; 
     float: left; 
-    background-color: pink;
     width: 250px;
 }
 
