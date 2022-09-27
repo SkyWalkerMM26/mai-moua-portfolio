@@ -5,8 +5,8 @@
   }
 
 :root {
-    --header-text: rgb(230, 213, 62);
-    --header-h1: #fff;
+    --header-link: rgb(230, 213, 62);
+    --header-name: #fff;
     --
   }
   
@@ -54,9 +54,9 @@ figcaption {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     font-size: 60px; 
     float: left; 
+    color: var(--header-name);
     width: 250px;
 }
-
 
 .nav {
    font-family:Arial, Helvetica, sans-serif;
@@ -66,34 +66,27 @@ figcaption {
     color: black;
     padding-top: 0px;
     margin-right: 50px;
-  
 }
 
-
 .header ul {
-        display: grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .header li {
-    display: block;
+    display: inline-block;
     justify-content: space-between;
     margin: 15px;
-    width: 180px;
+    width: 300px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: var(--header-text);
+    color: var(--header-link);
     text-decoration: underline;
 }
 
-
-
-main {
-    
-    
-}
+main {}
 
 .subtitle {
     font-size: 60px;
@@ -102,7 +95,7 @@ main {
     flex-wrap: wrap;
 }
 
- .sub {
+.sub {
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    
    font-weight: bold;
@@ -111,19 +104,7 @@ main {
    width: 400px;
    }  
 
-  
-  input,
-  select,
-  option,
-  optgroup,
-  textarea,
-  button,
-  pre,
-  code {
-    font-size: 100%;
-    font-family: inherit;
-  }
-
+ 
 .container {
   
 
